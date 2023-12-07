@@ -20,31 +20,29 @@
 </head>
 <body>
     <header>
-        <h1></h1>
- <section>
-
-     
-     <div>
+        <h1>site-salle-sport</h1>
+ <section class="content">
+                        <h2></h2>
+         <div>
          <ul>
              <li>
-                 <a href="accueil">Accueil</a>
+                 <a href="{{ route('main. accueil') }}">Accueil</a>
                 </li>
                 <li >
-                    <a href="cours">cours</a>
+                    <a href="{{ route('main.cours') }}">cours</a>
                 </li>
                 <li>
-                    <a href="tarifs">tarifs</a>
+                    <a href="{{ route('main.tarifs') }}">tarifs</a>
                 </li>
                 <li>
-                    <a href="contact">contact</a>
+                    <a href="{{ route('main.home') }}">contact</a>
                 </li>
                 <li>
-                    <a href="mentions-legales">mentions legales</a>
+                    <a href="{{ route('main.home') }}">mentions legales</a>
                 </li>
             </ul>
         </div>
     </section>
-        <img src="{{ asset('img/foo.jpg') }}" alt="Description de l'image">
         
     </header>
     <footer>
