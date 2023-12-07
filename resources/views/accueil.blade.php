@@ -5,10 +5,10 @@
 @section('content')
 
     <section class="content">
-        <div class="cntent2">
-            <h1> fitown</h1>
+        <div class="img">
             <img src="img\p1.jpg" alt="fitness">
             <img src="img\p2.jpg" alt="fitness2">
+            <h1> Bienvenue au club Fitown </h1>
             
         </div>
 

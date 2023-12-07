@@ -10,45 +10,48 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous" defer></script>
     <title>{{ config('app.name') }} - @yield('title')t</title>
    
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
+          @vite(['resources/css/app.css', 'resources/js/app.js'])
 
-</head>
-
-    <head>
-        
-        @vite(['resources/css/app.css', 'resources/js/app.js'])
-</head>
-</head>
-<body>
-    <header>
-        <h1>site-salle-sport</h1>
- <section class="content">
-                        <h2>fitown</h2>
-         <div>
-         <ul>
-             <li>
+          <head>
+              
+              
+              </head>
+              
+              <body>
+                  <header>
+                  <a href="#" class="logo"><span>F</span>itown</a>
+    <section class="content">
+       <div class="menutoggle">
+           <ul class="navbar">
+                <li class="accueil">
                  <a href="{{ route('main.accueil') }}">Accueil</a>
+                 <!-- <h2>fitown votre club de remise en forme vous acceuille 7/7</h2> -->
                 </li>
-                <li >
+                <li class="cours">
                     <a href="{{ route('main.cours') }}">cours</a>
                 </li>
-                <li>
+                <li class="tarifs">
                     <a href="{{ route('main.tarifs') }}">tarifs</a>
                 </li>
-                <li>
+                <li class="contact">
                     <a href="{{ route('main.contact') }}">contact</a>
                 </li>
-                <li>
-                    <a href="{{ route('main.mentions-legales') }}">mentions legales</a>
+                <li class="mentions-legales">
+                    <a href="{{ route('main.mentions-legales') }}">mentions-legales</a>
                 </li>
             </ul>
+            
+                 
+            </div>
         </div>
+       
+            
+   
     </section>
         
     </header>
+    
     @yield('content')
-    <footer>
-        <link rel="mentions-legales" href="mentions-legales">
-    </footer>
+    
 </body>
 </html>
