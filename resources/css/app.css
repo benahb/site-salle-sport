@@ -171,12 +171,12 @@ display: flex;
   }
 
 
-  .cours{
-    background-color: #cbdff7;
+  .tarifs{
+    background-color: #e0e8f1;
     background-size: cover;
 }
 
-.cours .contenu{
+.tarifs .contenu{
     display: flex;
     margin-top: 40px;
     width: 100%;
@@ -185,7 +185,7 @@ display: flex;
     flex-wrap: wrap;
     flex-direction: row;
 }
-.cours .contenu .box{
+.tarifs .contenu .box{
     width: 340px;
     margin: 20px;
     background: #fff;
@@ -196,7 +196,7 @@ display: flex;
     border-radius: 15px;
 }
 
-.cours .contenu .box .imbox{
+.tarifs .contenu .box .imbox{
     width: 80px;
     height: 80px;
     border-radius: 50px;
@@ -205,7 +205,7 @@ display: flex;
     overflow: hidden;
 }
 
-.cours .contenu .box .imbox img{
+.tarifs .contenu .box .imbox img{
     position: relative;
     width: 100%;
     height: 100%;
@@ -215,12 +215,12 @@ display: flex;
     justify-content: center;
     align-items: center;
 }
-.cours .contenu .box .text{
+.tarifs .contenu .box .text{
     text-align: center;
     color: #666;
     font-style: italic;
 }
-.cours .contenu .box .text h3{
+.tarifs .contenu .box .text h3{
     color: #5c4d3d;
     margin-top: 20px;
     font-size: 1em;
@@ -229,13 +229,16 @@ display: flex;
 }
 
 .blanc .titre-text{
-    color: #302b2b;
+    color: #fff;
     align-items: center;
     text-align: center;
     margin-top: 80px;
 }
 
-
+.blanc .titre-text p{
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 .blanc .titre-text,
 .blanc p{

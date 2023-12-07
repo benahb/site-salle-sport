@@ -3,7 +3,7 @@
 @section('title' , 'cours')
 
 @section('content')
-<section class="cours" id="cour">
+<section class="tarifs" id="tarifs">
         <div class="titre blanc">
             <h2 class="titre-text">Nos<span> C</span>ours</h2>
             
@@ -16,7 +16,7 @@
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eum velit, labore quibusdam
                         molestiae facere rem quaerat veniam minima adipisci beatae unde .</p>
-                    <h3>adhesion annuelle  14,99euro</h3>
+                    <h3>Lundi 19h à 21h  / le Zumba</h3>
                 </div>
             </div>
             <div class="box"> 
@@ -26,7 +26,7 @@
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eum velit, labore quibusdam
                         molestiae facere rem quaerat veniam minima adipisci beatae unde .</p>
-                    <h3>la séance 9,99 euro</h3>
+                    <h3>Mardi 19h30 à 21h30  / Pilate</h3>
                 </div>
             </div>
             <div class="box">
@@ -36,7 +36,7 @@
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eum velit, labore quibusdam
                         molestiae facere rem quaerat veniam minima adipisci beatae unde .</p>
-                    <h3>le carnet de 10 séances 89,99 euro</h3>
+                    <h3>Jeudi 20h à 22h  / l'anglaise</h3>
                 </div>
             </div>
             <div class="box">
@@ -46,7 +46,7 @@
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eum velit, labore quibusdam
                         molestiae facere rem quaerat veniam minima adipisci beatae unde .</p>
-                    <h3>abonnement mensuel illimité sans cour 29,99 euro</h3>
+                    <h3>Vendredi 20h à 22h / le hiit</h3>
                 </div>
             </div>
             <div class="box">
@@ -56,7 +56,7 @@
                 <div class="text">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus, eum velit, labore quibusdam
                         molestiae facere rem quaerat veniam minima adipisci beatae unde .</p>
-                    <h3>Abonnement mensuelle illimité avec cour 59,99 euro</h3>
+                    <h3>Samedi 9h à 11h / le yoga</h3>
                 </div>
             </div>
         </div>
