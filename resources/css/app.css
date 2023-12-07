@@ -9,6 +9,11 @@ section.content {
     }
   
   .content img {
-    width: 200px;
-    height: auto;
+    width: 400px;
+    height: 400px;
+  }
+
+  .content h1{
+    font-size: 3em;
+    color: blue;
   }
