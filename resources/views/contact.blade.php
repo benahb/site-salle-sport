@@ -11,7 +11,7 @@
         <div class="contactform">
             <h3>envoyer un message</h3>
             <div class="inputboite">
-                <input type="text" placeholder="Nom">
+                <input type="text" placeholder="votre demande">
             </div>
             <div class="inputboite">
                 <input type="text" placeholder="email">

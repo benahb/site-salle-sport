@@ -27,5 +27,5 @@ Route::get('/tarifs', [MainController::class, 'tarifsController'])->name
 Route::get('/contact', [MainController::class, 'contactController'])->name
 ('main.contact');
 
-Route::get('/mentionslegales', [MainController::class, 'mentionslegalesControllers'])->name
+Route::get('/mentionslegales', [MainController::class, 'mentionslegalesController'])->name
 ('main.mentions-legales');

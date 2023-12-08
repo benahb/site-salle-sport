@@ -6,12 +6,12 @@
   scroll-behavior: smooth;
 }
 
-p{
+/* p{ 
   font-weight: 300;
   color: #111;
-}
+/* } */
 
-header{
+header {
   position: fixed;
   top: 0%;
   left: 0%;
@@ -25,15 +25,16 @@ header{
 }
 
 .logo{
-  color:#9ca0a5; 
+  color:#373a3d; 
   font-weight: bold;
   font-size: 2.3em;
   text-decoration: none;
+  margin-bottom: 20px;
   
   
 }
 .logo span{
-  color: #fb5d1f;
+  color: #52fb1f;
 }
 
 .navbar{
@@ -46,7 +47,7 @@ header{
 }
 .navbar a{
   font-size: 1.2em;
-  color: #7c9ec5;
+  color: #6a8cb8;
   text-decoration: none;
   margin-left: 30px;
   font-weight: 300;
@@ -54,11 +55,11 @@ header{
 
 
 section.contact{
-  background-color:tan;
+  background-color:rgb(189, 187, 184);
   background-size: cover;
   box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.8);
   width: 100%;
-  background-position: unset;
+  background-position:center;
 }
 
 .contact h2{
@@ -145,35 +146,46 @@ display: flex;
     list-style: none;
     margin: 0;
     padding: 0;
-    }
+    
+ }
   
   .content img {
     height: max-content;
-    width: max-content;
+    width: 100%;
     position: relative;
     border-radius: 5px;
     justify-content: center;
+    align-items:center;
+    margin: 5px 5px; 
+    border-radius: 50px;
+    display:unset;
     
   }
 
 
 
+
   .content h1{
     font-size: 3em;
-    color:rgb(130, 130, 223);
+    color:rgb(187, 214, 35);
     position:absolute; display: flex;
     width: 100%;
-    justify-content: center;
-    align-items: center;
+    justify-content:right;
+    align-items:flex-start;
     flex-direction: column;
-    bottom: -10px;
+    position: absolute;
+    display: flex;
+    bottom: 250px;
+    padding-left: 250px;
+    
 
   }
 
 
   .tarifs{
-    background-color: #e0e8f1;
+     /* background: #d8dde2; */ 
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .tarifs .contenu{
@@ -184,16 +196,18 @@ display: flex;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: row;
+    
 }
 .tarifs .contenu .box{
     width: 340px;
     margin: 20px;
-    background: #fff;
+    background: #f8e7e7;
+    box-shadow: #534e4e;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
 .tarifs .contenu .box .imbox{
