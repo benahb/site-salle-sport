@@ -47,7 +47,7 @@ header {
 }
 .navbar a{
   font-size: 1.2em;
-  color: #6a8cb8;
+  color: #0ed10e;
   text-decoration: none;
   margin-left: 30px;
   font-weight: 300;
@@ -65,6 +65,7 @@ section.contact{
 .contact h2{
   text-align: center;
   margin-top: 80px;
+  font-weight: bold;
 }
 
 .contact p{
@@ -80,7 +81,7 @@ section.contact{
   margin-top: 50px;
   justify-content: center;
   align-items: center;
-  margin-left: 29%;
+  margin-left: 32%;
   border-radius: 20px;
 }
 
@@ -93,7 +94,7 @@ section.contact{
 .contactform h3{
 color: #111;
 font-size: 1.2em;
-margin-bottom: 20px;
+margin-bottom: 50px;
 text-align: center;
 }
 
@@ -136,11 +137,6 @@ text-align: center;
   background: #1ac6fa;
 }
 
-
-
-
-
-
  section.content { 
 display: flex;
     list-style: none;
@@ -163,11 +159,9 @@ display: flex;
   }
 
 
-
-
-  .content h1{
+.content h1 {
     font-size: 3em;
-    color:rgb(187, 214, 35);
+    color:rgb(49, 240, 24);
     position:absolute; display: flex;
     width: 100%;
     justify-content:right;
@@ -175,11 +169,23 @@ display: flex;
     flex-direction: column;
     position: absolute;
     display: flex;
-    bottom: 250px;
+    bottom: 210px;
     padding-left: 250px;
-    
+}
+.content p{
+  font-size: 1.2em;
+    color:rgb(21, 236, 21);
+    position:absolute; display: flex;
+    width: 100%;
+    justify-content:right;
+    align-items:flex-start;
+    flex-direction: column;
+    position: absolute;
+    display: flex;
+    bottom: 100px;
+    padding-left: 200px;
+}
 
-  }
 
 
   .tarifs{
@@ -277,4 +283,23 @@ section.mentions {
 .mentions .legales p{
   font-size: 1.2em;
   text-align: center;
+}
+.cordonnee h2{
+  font-size: 2em;
+  color: darkblue;
+}
+.cordonnee p{
+  font-size: 1.2em;
+}
+
+.cordonnee .google{
+ display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.copyright{
+  text-align: center;
+
+}.copyright h5{
+  text-transform: capitalize;
 }
