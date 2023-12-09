@@ -1,4 +1,4 @@
-# projet de restaurant fitown
+# projet de salle de sport fitown
 
 ce projet est un site web test pour le formation Devweb du cnam
 un site de salle de sport
